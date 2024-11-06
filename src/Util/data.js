@@ -197,8 +197,8 @@ export const SERVICES = [
 
 export const ABOUT_TEXT = `
 <p>I am a third-year Ph.D. candidate in the Department of Automation at Tsinghua University, supervised by Prof. <a href='https://www.gaohuang.net/' target='_blank' rel='noopener noreferrer'>Gao Huang</a>.
-I earned my bachelor's degree in Computer Science in 2022, and during my undergraduate years, I also studied Electrical Engineering.
-Previously, I interned at Sea AI Lab Singapore for over a year, working under the guidance of Prof. <a href='https://yanshuicheng.info/' target='_blank' rel='noopener noreferrer'>Shuicheng Yan</a> and collaborating closely with <a href='https://bingykang.github.io/' target='_blank' rel='noopener noreferrer'>Bingyi Kang</a>.</p>
+I earned my bachelor's degree in Computer Science in 2022 from Beihang University, and during my undergraduate years, I also studied Electrical Engineering.
+Previously, I interned at Sea AI Lab Singapore for over a year, working under the guidance of Prof. <a href='https://yanshuicheng.info/' target='_blank' rel='noopener noreferrer'>Shuicheng Yan</a> and collaborating closely with Dr. <a href='https://bingykang.github.io/' target='_blank' rel='noopener noreferrer'>Bingyi Kang</a>.</p>
 <p>My research primarily focuses on developing AI generalist decision-making systems. My interests include:</p>
 <ul>
     <li><span style="color: #4CAF50; background-color: #E8F5E9; padding: 2px 4px; border-radius: 3px;">Reinforcement Learning</span> for skill acquisition and self-improvement</li>
