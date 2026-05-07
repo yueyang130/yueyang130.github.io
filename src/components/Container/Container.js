@@ -2,7 +2,9 @@ import React from "react";
 import './Container.css';
 import Landing from "../Landing/Landing";
 import About from "../About/About";
+import WorkExperience from "../WorkExperience/WorkExperience";
 import News from "../News/News";
+import Awards from "../Awards/Awards";
 import Publications from "../Publications/Publications";
 import FeaturedPublications from "../FeaturedPublications/FeaturedPublications";
 import Services from '../Services/Services';
@@ -14,6 +16,8 @@ const Container = () => {
         <div className="container">
             <Landing />
             <About />
+            <WorkExperience />
+            <Awards />
             <News />
             <FeaturedPublications />
             <Publications />

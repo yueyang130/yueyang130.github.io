@@ -1,0 +1,117 @@
+/* Awards Section Styles - Based on News format */
+.awards-section {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 15px auto;
+    padding: 0;
+    gap: 1px;
+}
+
+.award-item {
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    align-items: center;
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-bottom: none;
+    padding: 12px 16px;
+    transition: all 0.2s ease;
+    position: relative;
+}
+
+.award-item:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    right: 20px;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(110, 69, 226, 0.3) 25%, rgba(136, 211, 206, 0.3) 75%, transparent);
+}
+
+.award-item:first-child {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.award-item:last-child {
+    border-bottom: 1px solid #e5e7eb;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.award-item:hover {
+    background: #f8fafc;
+    border-color: #d1d5db;
+    transform: none;
+    box-shadow: none;
+}
+
+.award-item::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background: linear-gradient(135deg, #6e45e2, #88d3ce);
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.award-item:hover::before {
+    opacity: 1;
+}
+
+.award-date {
+    font-size: 13px;
+    font-weight: 600;
+    color: #2a2a2a;
+    background: linear-gradient(45deg, #6e45e2, #88d3ce);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    padding-right: 12px;
+    border-right: 1px solid #e5e7eb;
+    line-height: 1.2;
+}
+
+.award-content {
+    font-size: 14px;
+    color: #374151;
+    line-height: 1.4;
+    padding-left: 12px;
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+    .award-item {
+        background: #1f2937;
+        border-color: #374151;
+        color: #e5e7eb;
+    }
+    
+    .award-item:hover {
+        background: #111827;
+        border-color: #4b5563;
+    }
+    
+    .award-item:not(:last-child)::after {
+        background: linear-gradient(90deg, transparent, rgba(110, 69, 226, 0.4) 25%, rgba(136, 211, 206, 0.4) 75%, transparent);
+    }
+    
+    .award-date {
+        color: #9ca3af;
+        border-right-color: #374151;
+    }
+    
+    .award-content {
+        color: #d1d5db;
+    }
+    
+    .award-item:last-child {
+        border-bottom-color: #374151;
+    }
+}

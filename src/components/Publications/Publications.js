@@ -10,7 +10,7 @@ const formatDate = (dateString) => {
 
 const highlightText = (text) => {
   // Pattern to highlight "Spotlight" and "Oral"
-  const regex = /(Spotlight|Oral)/g;
+  const regex = /(Spotlight|Oral|Best Paper)/g;
   const parts = text.split(regex);
 
   return (
@@ -50,36 +50,36 @@ const Publications = () => {
             <span role="img" aria-label="publications">📑</span>
             {' '}Publications
         </h1>
-        <div className="publications-grid">
+        <ul className="publications-list">
           {PUBLICATIONS.map(pub => (
-            <div key={pub.id} className="publication-entry">
-              <img src={pub.image} alt={pub.name} className="publication-image" />
-              <div className="publication-content">
-                <h2 onClick={() => window.open(pub.link, "_blank")}>
-                  {highlightText(pub.name)}
-                </h2>
-                <p className="publication-date">{formatDate(pub.date)}</p>
-                <p className="publication-venue">{highlightText(pub.journal)}</p>
-                <p style={{ fontStyle: 'italic' }}>{formatAuthors(pub.authors)}</p>
-                <div className="publication-links">
-                  <a href={pub.link} rel="noopener noreferrer" target="_blank">
-                    <i className="fas fa-file-alt"></i> {/* Icon for paper link */}
+            <li key={pub.id} className="publication-item">
+              <span className="bullet">•</span>
+              {highlightText(pub.name)}
+              <p style={{margin: '4px 0' }}>{formatAuthors(pub.authors)}</p>
+              <p className="publication-venue" style={{ margin: '4px 0 0 0' }}>{highlightText(pub.journal)}</p>
+              <div className="publication-links" style={{ margin: '0' }}>
+                <a href={pub.link} rel="noopener noreferrer" target="_blank">
+                  [Paper]
+                </a>
+                {pub.code && (
+                  <a href={pub.code} rel="noopener noreferrer" target="_blank">
+                    [Code]
                   </a>
-                  {pub.code && (
-                    <a href={pub.code} rel="noopener noreferrer" target="_blank">
-                      <i className="fas fa-code"></i> {/* Icon for code link */}
-                    </a>
-                  )}
-                  {pub.projectPage && (
-                    <a href={pub.projectPage} rel="noopener noreferrer" target="_blank">
-                      <i className="fas fa-globe"></i> {/* Icon for project page */}
-                    </a>
-                  )}
-                </div>
+                )}
+                {pub.projectPage && (
+                  <a href={pub.projectPage} rel="noopener noreferrer" target="_blank">
+                    [Homepage]
+                  </a>
+                )}
+                {pub.twitter && (
+                  <a href={pub.twitter} rel="noopener noreferrer" target="_blank">
+                    [twitter]
+                  </a>
+                )}
               </div>
-            </div>
+            </li>
           ))}
-        </div>
+        </ul>
       </section>
     );
   };

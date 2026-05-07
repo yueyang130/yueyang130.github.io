@@ -9,6 +9,11 @@ const formatDate = (dateString) => {
 };
 
 const highlightText = (text) => {
+  // If text contains HTML tags, render as HTML
+  if (text.includes('<span')) {
+    return <span dangerouslySetInnerHTML={{ __html: text }} />;
+  }
+  
   // Pattern to highlight "Spotlight" and "Oral"
   const regex = /(Spotlight|Oral)/g;
   const parts = text.split(regex);
@@ -60,19 +65,24 @@ const FeaturedPublications = () => {
               </h2>
               <p className="publication-date">{formatDate(pub.date)}</p>
               <p className="publication-venue">{highlightText(pub.journal)}</p>
-              <p style={{ fontStyle: 'italic' }}>{formatAuthors(pub.authors)}</p>
+              <p style={{ fontStyle: 'italic', fontSize: '0.85rem' }}>{formatAuthors(pub.authors)}</p>
               <div className="publication-links">
                 <a href={pub.link} rel="noopener noreferrer" target="_blank">
-                  <i className="fas fa-file-alt"></i> {/* Icon for paper link */}
+                  [paper]
                 </a>
                 {pub.code && (
                   <a href={pub.code} rel="noopener noreferrer" target="_blank">
-                    <i className="fas fa-code"></i> {/* Icon for code link */}
+                    [code]
                   </a>
                 )}
                 {pub.projectPage && (
                   <a href={pub.projectPage} rel="noopener noreferrer" target="_blank">
-                    <i className="fas fa-globe"></i> {/* Icon for project page */}
+                    [project page]
+                  </a>
+                )}
+                {pub.twitter && (
+                  <a href={pub.twitter} rel="noopener noreferrer" target="_blank">
+                    [twitter]
                   </a>
                 )}
               </div>
