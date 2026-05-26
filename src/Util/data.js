@@ -104,7 +104,7 @@ export const FEATUREDPUBLICATIONS = [
     {
         id: "flexibility-trap",
         name: "The Flexibility Trap: Why Arbitrary Order Limits Reasoning Potential in Diffusion Language Models",
-        journal: "International Conference on Machine Learning (ICML), 2026 Spotlight",
+        journal: "International Conference on Machine Learning (ICML), 2026 Oral",
         date: "Jan 2026",
         authors: "Zanlin Ni, Shenzhi Wang, Yang Yue, Tianyu Yu, Weilin Zhao, Yeguo Hua, Tianyi Chen, Jun Song, Cheng Yu, Bo Zheng, Gao Huang",
         image: flexibilityTrap,
@@ -117,7 +117,7 @@ export const FEATUREDPUBLICATIONS = [
         name: "MOVE: A Simple Motion-Based Data Collection Paradigm for Spatial Generalization in Robotic Manipulation",
         journal: "IEEE International Conference on Robotics and Automation (ICRA), 2026",
         date: "Dec 2025",
-        authors: "Huanqian Wang*, Chi Bene Chen*, Yang Yue*§ (*: Equal contribution; §: Project Lead), Danhua Tao, Tong Guo, Shaoxuan Xie, Denghang Huang, Shiji Song, Guocai Yao, Gao Huang",
+        authors: "Huanqian Wang*, Chi Bene Chen*, Yang Yue*† (*: Equal contribution; †: Project Lead), Danhua Tao, Tong Guo, Shaoxuan Xie, Denghang Huang, Shiji Song, Guocai Yao, Gao Huang",
         image: move,
         link: "https://arxiv.org/abs/2512.04813",
         code: "https://github.com/lucywang720/MOVE",
@@ -217,7 +217,7 @@ export const FEATUREDPUBLICATIONS = [
 export const PUBLICATIONS = [
     {
         name: "The Flexibility Trap: Why Arbitrary Order Limits Reasoning Potential in Diffusion Language Models",
-        journal: "International Conference on Machine Learning (ICML), 2026 Spotlight",
+        journal: "International Conference on Machine Learning (ICML), 2026 Oral",
         date: "Jan 2026",
         authors: "Zanlin Ni, Shenzhi Wang, Yang Yue, Tianyu Yu, Weilin Zhao, Yeguo Hua, Tianyi Chen, Jun Song, Cheng Yu, Bo Zheng, Gao Huang",
         link: "https://arxiv.org/pdf/2601.15165",
@@ -228,7 +228,7 @@ export const PUBLICATIONS = [
         name: "MOVE: A Simple Motion-Based Data Collection Paradigm for Spatial Generalization in Robotic Manipulation",
         journal: "IEEE International Conference on Robotics and Automation (ICRA), 2026",
         date: "Dec 2025",
-        authors: "Huanqian Wang*, Chi Bene Chen*, Yang Yue*§ (*: Equal contribution; §: Project Lead), Danhua Tao, Tong Guo, Shaoxuan Xie, Denghang Huang, Shiji Song, Guocai Yao, Gao Huang",
+        authors: "Huanqian Wang*, Chi Bene Chen*, Yang Yue*† (*: Equal contribution; †: Project Lead), Danhua Tao, Tong Guo, Shaoxuan Xie, Denghang Huang, Shiji Song, Guocai Yao, Gao Huang",
         link: "https://arxiv.org/abs/2512.04813",
         code: "https://github.com/lucywang720/MOVE",
     },
