@@ -387,16 +387,16 @@ export const SERVICES = [
 
 export const WORK_EXPERIENCE = [
     {
-        date: "2022",
-        content: "Interned at <span style=\"color: red; font-weight: bold;\">Sea AI Lab Singapore</span>, working under the guidance of Prof. <a href='https://yanshuicheng.info/' target='_blank' rel='noopener noreferrer' style='color: #2563eb; text-decoration: underline;'>Shuicheng Yan</a> and collaborating closely with <a href='https://bingykang.github.io/' target='_blank' rel='noopener noreferrer' style='color: #2563eb; text-decoration: underline;'>Bingyi Kang</a>."
+        date: "2025",
+        content: "Interned at <span style=\"color: red; font-weight: bold;\">Moonshot Kimi</span>, contributed to the development of <a href='https://github.com/MoonshotAI/Kimi-K2.5/blob/master/tech_report.pdf' target='_blank' rel='noopener noreferrer' style='color: #2563eb; text-decoration: underline;'>Kimi K2.5</a>'s <span style=\"color: red; font-weight: bold;\">Agent Swarm</span>."
     },
     {
         date: "2024",
         content: "Interned at <span style=\"color: red; font-weight: bold;\">ByteDance Seed</span>, advised by Prof. <a href='https://scholar.google.com/citations?user=Q8iay0gAAAAJ&hl=en' target='_blank' rel='noopener noreferrer' style='color: #2563eb; text-decoration: underline;'>Jiashi Feng</a>."
     },
     {
-        date: "2025",
-        content: "Interned at <span style=\"color: red; font-weight: bold;\">Moonshot Kimi</span>, contributed to the development of <a href='https://github.com/MoonshotAI/Kimi-K2.5/blob/master/tech_report.pdf' target='_blank' rel='noopener noreferrer' style='color: #2563eb; text-decoration: underline;'>Kimi K2.5</a>'s <span style=\"color: red; font-weight: bold;\">Agent Swarm</span>."
+        date: "2022",
+        content: "Interned at <span style=\"color: red; font-weight: bold;\">Sea AI Lab Singapore</span>, working under the guidance of Prof. <a href='https://yanshuicheng.info/' target='_blank' rel='noopener noreferrer' style='color: #2563eb; text-decoration: underline;'>Shuicheng Yan</a> and collaborating closely with <a href='https://bingykang.github.io/' target='_blank' rel='noopener noreferrer' style='color: #2563eb; text-decoration: underline;'>Bingyi Kang</a>."
     }
 ];
 
