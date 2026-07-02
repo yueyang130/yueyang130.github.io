@@ -424,31 +424,31 @@ I earned my bachelor's degree in Computer Science in 2022, and during my undergr
 export const AWARDS = [
     {
         date: "2025",
-        content: "<span style=\"color: red; font-weight: bold;\">NeurIPS 2025 Best Paper Runner-up Award</span> for Limit-of-RLVR paper. (<span style=\"color: red; font-weight: bold;\">4 Best Paper and 3 Best Paper Runner-up Awards</span> selected from over 21,000 submissions)"
+        content: "<strong class=\"award-name\">NeurIPS 2025 Best Paper Runner-up Award</strong> (7/21,575)"
     },
     {
         date: "2025",
-        content: "Awarded the National Scholarship for Ph.D. Students. (Top 2% at Tsinghua University)"
+        content: "<strong class=\"award-name\">National Scholarship for Ph.D. Students</strong> (Top 2%)"
     },
     {
         date: "2025",
-        content: "Won the <span style=\"color: red; font-weight: bold;\">ICML 2025 Workshop Best Paper Award</span> for Limit-of-RLVR at AI4Math Workshop. (<span style=\"color: red; font-weight: bold;\">2 out of 172</span> papers)"
+        content: "<strong class=\"award-name\">ICML 2025 AI4MATH Workshop Best Paper Award</strong> (2/172)"
     },
     {
         date: "2024",
-        content: "National Scholarship for Graduate Students. (Top 2% at Tsinghua, Ranked 2nd)"
+        content: "<strong class=\"award-name\">National Scholarship for Graduate Students</strong> (Top 2%, Ranked 2nd)"
     },
     {
         date: "2022",
-        content: "Awarded Honor Graduate of Beijing. (City-level honor)"
+        content: "<strong class=\"award-name\">Honor Graduate of Beijing</strong>"
     },
     {
         date: "2018-2020",
-        content: "Awarded the National Scholarship three times. (本科生国家奖学金, <span style=\"color: red; font-weight: bold;\">Top 2% for three consecutive years</span>)"
+        content: "<strong class=\"award-name\">National Scholarship</strong> (Top 2% for three consecutive years)"
     },
     {
         date: "2018",
-        content: "Won the <span style=\"color: red; font-weight: bold;\">First Prize</span> in National Mathematics Competition for College Students. (Ranked <span style=\"color: red; font-weight: bold;\">No.9</span> in China)"
+        content: "<strong class=\"award-name\">First Prize, National Mathematics Competition for College Students</strong> (No.9 in China)"
     }
 ];
 
