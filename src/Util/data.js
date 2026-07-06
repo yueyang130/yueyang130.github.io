@@ -104,7 +104,7 @@ export const FEATUREDPUBLICATIONS = [
     {
         id: "flexibility-trap",
         name: "The Flexibility Trap: Why Arbitrary Order Limits Reasoning Potential in Diffusion Language Models",
-        journal: "International Conference on Machine Learning (ICML), 2026 Oral",
+        journal: "<span style=\"color: red; font-weight: bold;\">ICML Outstanding Paper Award</span> (2/23,918)<br/>International Conference on Machine Learning (ICML), 2026 Oral",
         date: "Jan 2026",
         authors: "Zanlin Ni, Shenzhi Wang, Yang Yue, Tianyu Yu, Weilin Zhao, Yeguo Hua, Tianyi Chen, Jun Song, Cheng Yu, Bo Zheng, Gao Huang",
         image: flexibilityTrap,
@@ -217,7 +217,7 @@ export const FEATUREDPUBLICATIONS = [
 export const PUBLICATIONS = [
     {
         name: "The Flexibility Trap: Why Arbitrary Order Limits Reasoning Potential in Diffusion Language Models",
-        journal: "International Conference on Machine Learning (ICML), 2026 Oral",
+        journal: "ICML Outstanding Paper Award (2/23,918); International Conference on Machine Learning (ICML), 2026 Oral",
         date: "Jan 2026",
         authors: "Zanlin Ni, Shenzhi Wang, Yang Yue, Tianyu Yu, Weilin Zhao, Yeguo Hua, Tianyi Chen, Jun Song, Cheng Yu, Bo Zheng, Gao Huang",
         link: "https://arxiv.org/pdf/2601.15165",
@@ -395,6 +395,10 @@ export const WORK_EXPERIENCE = [
         content: "Interned at <span style=\"color: red; font-weight: bold;\">ByteDance Seed</span>, advised by Prof. <a href='https://scholar.google.com/citations?user=Q8iay0gAAAAJ&hl=en' target='_blank' rel='noopener noreferrer' style='color: #2563eb; text-decoration: underline;'>Jiashi Feng</a>."
     },
     {
+        date: "2024",
+        content: "Summer practice at <span style=\"color: red; font-weight: bold;\">OOCL Hong Kong</span>."
+    },
+    {
         date: "2022",
         content: "Interned at <span style=\"color: red; font-weight: bold;\">Sea AI Lab Singapore</span>, working under the guidance of Prof. <a href='https://yanshuicheng.info/' target='_blank' rel='noopener noreferrer' style='color: #2563eb; text-decoration: underline;'>Shuicheng Yan</a> and collaborating closely with <a href='https://bingykang.github.io/' target='_blank' rel='noopener noreferrer' style='color: #2563eb; text-decoration: underline;'>Bingyi Kang</a>."
     }
@@ -422,6 +426,10 @@ I earned my bachelor's degree in Computer Science in 2022, and during my undergr
 //  Additionally, 
 
 export const AWARDS = [
+    {
+        date: "2026",
+        content: "<strong class=\"award-name\">ICML Outstanding Paper Award</strong> (2/23,918)"
+    },
     {
         date: "2025",
         content: "<strong class=\"award-name\">NeurIPS 2025 Best Paper Runner-up Award</strong> (7/21,575)"
