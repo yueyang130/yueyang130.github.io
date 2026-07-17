@@ -2,7 +2,7 @@
 import adaptivenn from '../assets/adaptivenn.png';
 import rlvr from '../assets/limit_of_rlvr.gif';
 import flexibilityTrap from '../assets/flexibility_trap.png';
-import move from '../assets/move.png';
+// import move from '../assets/move.png';
 import azr from '../assets/azr.jpg';
 import deer from '../assets/deer.jpg';
 import seem from '../assets/seem.png';
@@ -112,16 +112,16 @@ export const FEATUREDPUBLICATIONS = [
         code: "https://github.com/LeapLabTHU/JustGRPO",
         projectPage: "https://nzl-thu.github.io/the-flexibility-trap",
     },
-    {
-        id: "move",
-        name: "MOVE: A Simple Motion-Based Data Collection Paradigm for Spatial Generalization in Robotic Manipulation",
-        journal: "IEEE International Conference on Robotics and Automation (ICRA), 2026",
-        date: "Dec 2025",
-        authors: "Huanqian Wang*, Chi Bene Chen*, Yang Yue*† (*: Equal contribution; †: Project Lead), Danhua Tao, Tong Guo, Shaoxuan Xie, Denghang Huang, Shiji Song, Guocai Yao, Gao Huang",
-        image: move,
-        link: "https://arxiv.org/abs/2512.04813",
-        code: "https://github.com/lucywang720/MOVE",
-    },
+    // {
+    //     id: "move",
+    //     name: "MOVE: A Simple Motion-Based Data Collection Paradigm for Spatial Generalization in Robotic Manipulation",
+    //     journal: "IEEE International Conference on Robotics and Automation (ICRA), 2026",
+    //     date: "Dec 2025",
+    //     authors: "Huanqian Wang*, Chi Bene Chen*, Yang Yue*† (*: Equal contribution; †: Project Lead), Danhua Tao, Tong Guo, Shaoxuan Xie, Denghang Huang, Shiji Song, Guocai Yao, Gao Huang",
+    //     image: move,
+    //     link: "https://arxiv.org/abs/2512.04813",
+    //     code: "https://github.com/lucywang720/MOVE",
+    // },
     {
         name: "Emulating Human-like Adaptive Vision for Efficient and Flexible Machine Visual Perception",
         journal: "<span style=\"color: red; font-weight: bold;\">Nature Machine Intelligence</span>",
@@ -224,14 +224,14 @@ export const PUBLICATIONS = [
         code: "https://github.com/LeapLabTHU/JustGRPO",
         projectPage: "https://nzl-thu.github.io/the-flexibility-trap",
     },
-    {
-        name: "MOVE: A Simple Motion-Based Data Collection Paradigm for Spatial Generalization in Robotic Manipulation",
-        journal: "IEEE International Conference on Robotics and Automation (ICRA), 2026",
-        date: "Dec 2025",
-        authors: "Huanqian Wang*, Chi Bene Chen*, Yang Yue*† (*: Equal contribution; †: Project Lead), Danhua Tao, Tong Guo, Shaoxuan Xie, Denghang Huang, Shiji Song, Guocai Yao, Gao Huang",
-        link: "https://arxiv.org/abs/2512.04813",
-        code: "https://github.com/lucywang720/MOVE",
-    },
+    // {
+    //     name: "MOVE: A Simple Motion-Based Data Collection Paradigm for Spatial Generalization in Robotic Manipulation",
+    //     journal: "IEEE International Conference on Robotics and Automation (ICRA), 2026",
+    //     date: "Dec 2025",
+    //     authors: "Huanqian Wang*, Chi Bene Chen*, Yang Yue*† (*: Equal contribution; †: Project Lead), Danhua Tao, Tong Guo, Shaoxuan Xie, Denghang Huang, Shiji Song, Guocai Yao, Gao Huang",
+    //     link: "https://arxiv.org/abs/2512.04813",
+    //     code: "https://github.com/lucywang720/MOVE",
+    // },
     {
         name: "Emulating Human-like Adaptive Vision for Efficient and Flexible Machine Visual Perception",
         journal: "Nature Machine Intelligence",
@@ -405,17 +405,15 @@ export const WORK_EXPERIENCE = [
 ];
 
 export const ABOUT_TEXT = `
-<p>I am a fourth-year Ph.D. candidate in the Department of Automation at Tsinghua University, supervised by Prof. <a href='https://www.gaohuang.net/' target='_blank' rel='noopener noreferrer'>Gao Huang</a>.
-I earned my bachelor's degree in Computer Science in 2022, and during my undergraduate years, I also studied Electrical Engineering.
-</p>
+<p>I am a fourth-year Ph.D. candidate in the Department of Automation at Tsinghua University, supervised by Prof. <a href='https://www.gaohuang.net/' target='_blank' rel='noopener noreferrer'>Gao Huang</a>. I earned my bachelor's degree in Computer Science in 2022<!--, and during my undergraduate years, I also studied Electrical Engineering-->. My research primarily is Reinforcement Learning.</p>
+<!--
 <p>My research primarily focuses on developing AI generalist decision-making systems. My interests include:</p>
 <ul>
     <li><span style="color: #4CAF50; background-color: #E8F5E9; padding: 2px 4px; border-radius: 3px;">Reinforcement Learning</span> for skill acquisition and self-improvement</li>
-    <!--
     <li><span style="color: #4CAF50; background-color: #E8F5E9; padding: 2px 4px; border-radius: 3px;">LLM Reasoning and Agent</span> for generalized reasoning and long-horizon execution</li>
     <li><span style="color: #4CAF50; background-color: #E8F5E9; padding: 2px 4px; border-radius: 3px;">Embodied AI</span> for real-world interactions and applications</li>
-    -->
 </ul>
+-->
 <p></p>
 <p>
 <span style="color: #BDD8E6; font-style: italic;">
