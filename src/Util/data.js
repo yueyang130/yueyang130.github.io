@@ -386,18 +386,18 @@ export const SERVICES = [
 ];
 
 export const WORK_EXPERIENCE = [
-    {
-        date: "2025",
-        content: "Interned at <span style=\"color: red; font-weight: bold;\">Moonshot Kimi</span>, contributed to the development of <a href='https://github.com/MoonshotAI/Kimi-K2.5/blob/master/tech_report.pdf' target='_blank' rel='noopener noreferrer' style='color: #2563eb; text-decoration: underline;'>Kimi K2.5</a>'s <span style=\"color: red; font-weight: bold;\">Agent Swarm</span>."
-    },
+    // {
+    //     date: "2025",
+    //     content: "Interned at <span style=\"color: red; font-weight: bold;\">Moonshot Kimi</span>, contributed to the development of <a href='https://github.com/MoonshotAI/Kimi-K2.5/blob/master/tech_report.pdf' target='_blank' rel='noopener noreferrer' style='color: #2563eb; text-decoration: underline;'>Kimi K2.5</a>'s <span style=\"color: red; font-weight: bold;\">Agent Swarm</span>."
+    // },
     {
         date: "2024",
         content: "Interned at <span style=\"color: red; font-weight: bold;\">ByteDance Seed</span>, advised by Prof. <a href='https://scholar.google.com/citations?user=Q8iay0gAAAAJ&hl=en' target='_blank' rel='noopener noreferrer' style='color: #2563eb; text-decoration: underline;'>Jiashi Feng</a>."
     },
-    {
-        date: "2024",
-        content: "Summer practice at <span style=\"color: red; font-weight: bold;\">OOCL Hong Kong</span>."
-    },
+    // {
+    //     date: "2024",
+    //     content: "Summer practice at <span style=\"color: red; font-weight: bold;\">OOCL Hong Kong</span>."
+    // },
     {
         date: "2022",
         content: "Interned at <span style=\"color: red; font-weight: bold;\">Sea AI Lab Singapore</span>, working under the guidance of Prof. <a href='https://yanshuicheng.info/' target='_blank' rel='noopener noreferrer' style='color: #2563eb; text-decoration: underline;'>Shuicheng Yan</a> and collaborating closely with <a href='https://bingykang.github.io/' target='_blank' rel='noopener noreferrer' style='color: #2563eb; text-decoration: underline;'>Bingyi Kang</a>."
@@ -411,8 +411,10 @@ I earned my bachelor's degree in Computer Science in 2022, and during my undergr
 <p>My research primarily focuses on developing AI generalist decision-making systems. My interests include:</p>
 <ul>
     <li><span style="color: #4CAF50; background-color: #E8F5E9; padding: 2px 4px; border-radius: 3px;">Reinforcement Learning</span> for skill acquisition and self-improvement</li>
+    <!--
     <li><span style="color: #4CAF50; background-color: #E8F5E9; padding: 2px 4px; border-radius: 3px;">LLM Reasoning and Agent</span> for generalized reasoning and long-horizon execution</li>
     <li><span style="color: #4CAF50; background-color: #E8F5E9; padding: 2px 4px; border-radius: 3px;">Embodied AI</span> for real-world interactions and applications</li>
+    -->
 </ul>
 <p></p>
 <p>
