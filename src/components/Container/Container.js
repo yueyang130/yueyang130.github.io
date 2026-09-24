@@ -16,8 +16,8 @@ const Container = () => {
         <div className="container">
             <Landing />
             <About />
-            <WorkExperience />
             <Awards />
+            <WorkExperience />
             <News />
             <FeaturedPublications />
             <Publications />

@@ -60,31 +60,31 @@ export const SOCIAL_LINKS = [
 export const NEWS = [
     {
         date: "Sep 2025",
-        content: "Three papers are accepted by NeurIPS 2025. Limit-of-RLVR is as <span style=\"color: red; font-weight: bold;\">Oral (0.35%) and is the only paper to receive a perfect score 6666 this year (1/21,575)</span>. Absolute Zero is as <span style=\"color: red; font-weight: bold;\">Spotlight (3%)</span>.",
+        content: "Three papers are accepted by NeurIPS 2025. Limit-of-RLVR is as <span class=\"timeline-highlight\">Oral (0.35%) and is the only paper to receive a perfect score 6666 this year (1/21,575)</span>. Absolute Zero is as <span class=\"timeline-highlight\">Spotlight (3%)</span>.",
     },
     {
         date: "Jul 2025",
-        content: "Our paper AdaptiveNN is accepted by <span style=\"color: red; font-weight: bold;\">Nature Machine Intelligence</span>. It models visual reasoning using reinforcement learning, similar to OpenAI o1 Thinking with Image.",
+        content: "Our paper AdaptiveNN is accepted by <span class=\"timeline-highlight\">Nature Machine Intelligence</span>. It models visual reasoning using reinforcement learning, similar to OpenAI o1 Thinking with Image.",
     },
     {
         date: "Jul 2025",
-        content: "Limit-of-RLVR is awarded as the <span style=\"color: red; font-weight: bold;\">Best Paper</span> at the <span style=\"color: red; font-weight: bold;\">ICML 2025</span> Workshop AI4Math (among 172 papers).",
+        content: "Limit-of-RLVR is awarded as the <span class=\"timeline-highlight\">Best Paper</span> at the <span class=\"timeline-highlight\">ICML 2025</span> Workshop AI4Math (among 172 papers).",
     },
     {
         date: "Jun 2025",
-        content: "We released two interesting paper about RLVR for LLM reasoning, <span style=\"color: red; font-weight: bold;\">Absolute Zero</span> and <span style=\"color: red; font-weight: bold;\">Beyond the 80/20 Rule</span>.",
+        content: "We released two interesting paper about RLVR for LLM reasoning, <span class=\"timeline-highlight\">Absolute Zero</span> and <span class=\"timeline-highlight\">Beyond the 80/20 Rule</span>.",
     },
     {
         date: "April 2025",
-        content: "Our paper \"<span style=\"color: red; font-weight: bold;\">Limit-of-RLVR</span>\" is released. It sparked active discussion on X, highlighted by many researchers, and reached over <span style=\"color: red; font-weight: bold;\">1 million views</span>.",
+        content: "Our paper \"<span class=\"timeline-highlight\">Limit-of-RLVR</span>\" is released. It sparked active discussion on X, highlighted by many researchers, and reached over <span class=\"timeline-highlight\">1 million views</span>.",
     },
     {
         date: "Nov 2024",
-        content: "\"How Far is Video Generation from World Model: A Physical Law Perspective\" is selected as the representative project for <span style=\"color: red; font-weight: bold;\">Bytedance Topseed</span>. Its twitter is repost by Yann LeCun.",
+        content: "\"How Far is Video Generation from World Model: A Physical Law Perspective\" is selected as the representative project for <span class=\"timeline-highlight\">Bytedance Topseed</span>. Its twitter is repost by Yann LeCun.",
     },
     // {
     //     date: "Oct 2024",
-    //     content: "Awarded the National Scholarship for graduate students. (研究生国家奖学金, <span style=\"color: red; font-weight: bold;\">Top 2%</span> at Tsinghua University. Ranked <span style=\"color: red; font-weight: bold;\">2nd</span> in the first batch of selection.)",
+    //     content: "Awarded the National Scholarship for graduate students. (研究生国家奖学金, <span class=\"timeline-highlight\">Top 2%</span> at Tsinghua University. Ranked <span class=\"timeline-highlight\">2nd</span> in the first batch of selection.)",
     // },
     // {
     //     date: "Jun 2022",
@@ -92,11 +92,11 @@ export const NEWS = [
     // },
     // {
     //     date: "2018-2020",
-    //     content: "Awarded the National Scholarship <span style=\"color: red; font-weight: bold;\">three times</span>. (本科生国家奖学金, <span style=\"color: red; font-weight: bold;\">Top 2%</span>)",
+    //     content: "Awarded the National Scholarship <span class=\"timeline-highlight\">three times</span>. (本科生国家奖学金, <span class=\"timeline-highlight\">Top 2%</span>)",
     // },
     // {
     //     date: "Nov 2018",
-    //     content: "Won the first prize in Mathematics competition of Chinese College Student (Ranked <span style=\"color: red; font-weight: bold;\">No.9</span> in China)",
+    //     content: "Won the first prize in Mathematics competition of Chinese College Student (Ranked <span class=\"timeline-highlight\">No.9</span> in China)",
     // },
 ];
 
@@ -388,24 +388,24 @@ export const SERVICES = [
 export const WORK_EXPERIENCE = [
     {
         date: "2025",
-        content: "Interned at <span style=\"color: red; font-weight: bold;\">Moonshot Kimi</span>, contributed to the development of <a href='https://github.com/MoonshotAI/Kimi-K2.5/blob/master/tech_report.pdf' target='_blank' rel='noopener noreferrer' style='color: #2563eb; text-decoration: underline;'>Kimi K2.5</a>'s <span style=\"color: red; font-weight: bold;\">Agent Swarm</span>."
+        content: "Interned at <span class=\"timeline-highlight\">Moonshot Kimi</span>, contributed to the development of <a href='https://github.com/MoonshotAI/Kimi-K2.5/blob/master/tech_report.pdf' target='_blank' rel='noopener noreferrer'>Kimi K2.5</a>'s <span class=\"timeline-highlight\">Agent Swarm</span>."
     },
     {
         date: "2024",
-        content: "Interned at <span style=\"color: red; font-weight: bold;\">ByteDance Seed</span>, advised by Prof. <a href='https://scholar.google.com/citations?user=Q8iay0gAAAAJ&hl=en' target='_blank' rel='noopener noreferrer' style='color: #2563eb; text-decoration: underline;'>Jiashi Feng</a>."
+        content: "Interned at <span class=\"timeline-highlight\">ByteDance Seed</span>, advised by Prof. <a href='https://scholar.google.com/citations?user=Q8iay0gAAAAJ&hl=en' target='_blank' rel='noopener noreferrer'>Jiashi Feng</a>."
     },
     {
         date: "2024",
-        content: "Summer practice at <span style=\"color: red; font-weight: bold;\">OOCL Hong Kong</span>."
+        content: "Summer practice at <span class=\"timeline-highlight\">OOCL Hong Kong</span>."
     },
     {
         date: "2022",
-        content: "Interned at <span style=\"color: red; font-weight: bold;\">Sea AI Lab Singapore</span>, working under the guidance of Prof. <a href='https://yanshuicheng.info/' target='_blank' rel='noopener noreferrer' style='color: #2563eb; text-decoration: underline;'>Shuicheng Yan</a> and collaborating closely with <a href='https://bingykang.github.io/' target='_blank' rel='noopener noreferrer' style='color: #2563eb; text-decoration: underline;'>Bingyi Kang</a>."
+        content: "Interned at <span class=\"timeline-highlight\">Sea AI Lab Singapore</span>, working under the guidance of Prof. <a href='https://yanshuicheng.info/' target='_blank' rel='noopener noreferrer'>Shuicheng Yan</a> and collaborating closely with <a href='https://bingykang.github.io/' target='_blank' rel='noopener noreferrer'>Bingyi Kang</a>."
     }
 ];
 
 export const ABOUT_TEXT = `
-<p>I am a Ph.D. student in the Department of Automation at Tsinghua University, supervised by Prof. <a href='https://www.gaohuang.net/' target='_blank' rel='noopener noreferrer'>Gao Huang</a>. I earned my bachelor's degree in Computer Science in 2022<!--, and during my undergraduate years, I also studied Electrical Engineering-->. My research primarily focuses on developing AI generalist decision-making systems. My interests include:</p>
+<p>I received my Ph.D. in the Department of Automation at Tsinghua University in 2026, under the supervision of Prof. <a href='https://www.gaohuang.net/' target='_blank' rel='noopener noreferrer'>Gao Huang</a> and Prof. Shiji Song. I earned my bachelor's degree in Computer Science in 2022<!--, and during my undergraduate years, I also studied Electrical Engineering-->. My research primarily focuses on developing AI generalist decision-making systems. My interests include:</p>
 <ul>
     <li><span style="color: #4CAF50; background-color: #E8F5E9; padding: 2px 4px; border-radius: 3px;">Reinforcement Learning</span> for skill acquisition and self-improvement</li>
     <li><span style="color: #4CAF50; background-color: #E8F5E9; padding: 2px 4px; border-radius: 3px;">LLM Reasoning and Agent</span> for generalized reasoning and long-horizon execution</li>
@@ -425,34 +425,44 @@ export const ABOUT_TEXT = `
 export const AWARDS = [
     {
         date: "2026",
-        content: "<strong class=\"award-name\">ICML Outstanding Paper Award</strong> (2/23,918)"
+        category: "academic",
+        featured: true,
+        content: "<strong class=\"award-name\">ICML Outstanding Paper Award</strong> <span class=\"award-detail\">(2/23,918)</span>"
     },
     {
         date: "2025",
-        content: "<strong class=\"award-name\">NeurIPS 2025 Best Paper Runner-up Award</strong> (7/21,575)"
+        category: "academic",
+        featured: true,
+        content: "<strong class=\"award-name\">NeurIPS 2025 Best Paper Runner-up Award</strong> <span class=\"award-detail\">(7/21,575)</span>"
     },
     {
         date: "2025",
+        category: "other",
         content: "<strong class=\"award-name\">National Scholarship for Ph.D. Students</strong> (Top 2%)"
     },
     {
         date: "2025",
+        category: "academic",
         content: "<strong class=\"award-name\">ICML 2025 AI4MATH Workshop Best Paper Award</strong> (2/172)"
     },
     {
         date: "2024",
+        category: "other",
         content: "<strong class=\"award-name\">National Scholarship for Graduate Students</strong> (Top 2%, Ranked 2nd)"
     },
     {
         date: "2022",
+        category: "other",
         content: "<strong class=\"award-name\">Honor Graduate of Beijing</strong>"
     },
     {
         date: "2018-2020",
+        category: "other",
         content: "<strong class=\"award-name\">National Scholarship</strong> (Top 2% for three consecutive years)"
     },
     {
         date: "2018",
+        category: "other",
         content: "<strong class=\"award-name\">First Prize, National Mathematics Competition for College Students</strong> (No.9 in China)"
     }
 ];

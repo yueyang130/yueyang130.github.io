@@ -16,7 +16,7 @@ const Landing = () => {
         <section id="landing" className="landing">
             <div className="text-content">
                 <h1>{FULL_NAME}</h1>
-                <h4 className="subtitle">PhD Student @ Tsinghua University</h4>
+                <h4 className="subtitle">Ph.D., Tsinghua University, 2026</h4>
                 <div className="social-links-container">
                     <div className="email-link">
                         <i className="far fa-lg fa-envelope"></i>

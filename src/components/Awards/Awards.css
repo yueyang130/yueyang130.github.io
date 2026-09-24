@@ -1,134 +1,116 @@
-/* Awards Section Styles - Based on News format */
-.awards-grid,
-.awards-section {
+#awards {
+    scroll-margin-top: 24px;
+}
+
+.award-group {
+    max-width: 800px;
+    margin: 24px auto 0;
+}
+
+.award-group-title {
+    margin-bottom: 12px;
+    color: var(--first-color);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+}
+
+.awards-grid {
     display: flex;
     flex-direction: column;
-    max-width: 800px;
-    margin: 15px auto;
     padding: 0;
-    gap: 1px;
+    border: 1px solid #455166;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 12px 32px rgba(15, 23, 42, 0.14);
+}
+
+.award-group--academic .awards-grid {
+    border-color: #d7c8a8;
 }
 
 .award-item {
     display: grid;
-    grid-template-columns: 70px 1fr;
+    grid-template-columns: 76px minmax(0, 1fr);
     align-items: center;
-    background: #ffffff;
-    border: 1px solid #e5e7eb;
-    border-bottom: none;
-    padding: 9px 16px;
-    transition: all 0.2s ease;
-    position: relative;
-}
-
-.award-item:not(:last-child)::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 20px;
-    right: 20px;
-    height: 1px;
-    background: linear-gradient(90deg, transparent, rgba(110, 69, 226, 0.3) 25%, rgba(136, 211, 206, 0.3) 75%, transparent);
-}
-
-.award-item:first-child {
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
+    padding: 16px 22px;
+    background: linear-gradient(110deg, #1d293d, #26374c);
+    border-bottom: 1px solid rgba(218, 190, 132, 0.24);
 }
 
 .award-item:last-child {
-    border-bottom: 1px solid #e5e7eb;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
-}
-
-.award-item:hover {
-    background: #f8fafc;
-    border-color: #d1d5db;
-    transform: none;
-    box-shadow: none;
-}
-
-.award-item::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    width: 3px;
-    background: linear-gradient(135deg, #6e45e2, #88d3ce);
-    opacity: 0;
-    transition: opacity 0.2s ease;
-}
-
-.award-item:hover::before {
-    opacity: 1;
+    border-bottom: none;
 }
 
 .award-date {
+    padding-right: 18px;
+    color: #bac4d1;
     font-size: 13px;
     font-weight: 600;
-    color: #2a2a2a;
-    background: linear-gradient(45deg, #6e45e2, #88d3ce);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+    font-variant-numeric: tabular-nums;
     text-align: center;
-    padding-right: 12px;
-    border-right: 1px solid #e5e7eb;
-    line-height: 1.2;
+    line-height: 1.5;
 }
 
 .award-content {
+    min-width: 0;
+    padding-left: 20px;
+    border-left: 1px solid rgba(218, 190, 132, 0.25);
+    color: #b6c3d2;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
     font-size: 14px;
-    color: #374151;
-    line-height: 1.25;
-    padding-left: 12px;
-    white-space: nowrap;
+    line-height: 1.6;
+    overflow-wrap: break-word;
 }
 
 .award-name {
-    color: #4f46e5;
-    font-weight: 700;
+    color: #dbe2eb;
+    font-weight: 600;
+}
+
+.award-item--featured {
+    position: relative;
+    background: linear-gradient(110deg, #1d293d, #26374c);
+    border-bottom-color: rgba(218, 190, 132, 0.24);
+}
+
+.award-item--featured::before {
+    content: '';
+    position: absolute;
+    inset: 0 auto 0 0;
+    width: 3px;
+    background: #d8b773;
+}
+
+.award-item--featured .award-date {
+    color: #d8bd84;
+}
+
+.award-item--featured .award-name {
+    color: #f3dfb1;
+    font-weight: 650;
+}
+
+.award-item--featured .award-detail {
+    color: #d6c6a6;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
 }
 
 @media (max-width: 768px) {
-    .award-content {
-        white-space: normal;
-    }
-}
-
-/* Dark mode support */
-@media (prefers-color-scheme: dark) {
     .award-item {
-        background: #1f2937;
-        border-color: #374151;
-        color: #e5e7eb;
-    }
-    
-    .award-item:hover {
-        background: #111827;
-        border-color: #4b5563;
-    }
-    
-    .award-item:not(:last-child)::after {
-        background: linear-gradient(90deg, transparent, rgba(110, 69, 226, 0.4) 25%, rgba(136, 211, 206, 0.4) 75%, transparent);
-    }
-    
-    .award-date {
-        color: #9ca3af;
-        border-right-color: #374151;
-    }
-    
-    .award-content {
-        color: #d1d5db;
+        grid-template-columns: 56px minmax(0, 1fr);
+        padding: 14px;
     }
 
-    .award-name {
-        color: #a5b4fc;
+    .award-date {
+        padding-right: 10px;
+        font-size: 12px;
     }
-    
-    .award-item:last-child {
-        border-bottom-color: #374151;
+
+    .award-content {
+        padding-left: 14px;
     }
+
 }
